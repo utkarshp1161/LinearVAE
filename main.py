@@ -67,7 +67,6 @@ def main():
 
     plot_latent_space(vae,image_size, n=5, figsize= 5)
     plt.savefig('out.png')
-    import pdb; pdb.set_trace()
     plot_latent_embeddings_with_labels(vae, x_test, y_test, figsize=15)
     plt.savefig('out2.png')
     
