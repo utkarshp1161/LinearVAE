@@ -5,8 +5,8 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.datasets import mnist
 import matplotlib.pyplot as plt
 from tensorflow.keras import backend as K
-from src.model import CustomVAE
-from src.utils import plot_latent_space, plot_latent_embeddings_with_labels
+from lvae.model import CustomVAE
+from lvae.utils import plot_latent_space, plot_latent_embeddings_with_labels
 
 
 def main():
